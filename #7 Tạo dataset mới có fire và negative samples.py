@@ -7,8 +7,8 @@ import yaml
 # =========================
 # CẤU HÌNH
 # =========================
-SOURCE_DATASET = Path(r"D:\\Do-an1_2classes\\Indoor_merge")
-TARGET_DATASET = Path(r"D:\\Do-an1_2classes\\Indoor_fire_and_neg-samples")
+SOURCE_DATASET = Path(r"D:\\Do-an1\\Indoor_merge")
+TARGET_DATASET = Path(r"D:\\Do-an1\\Samples")
 
 SPLITS = ["Train", "Valid", "Test"]
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}

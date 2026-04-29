@@ -1,7 +1,7 @@
 #Kiểm tra dataset có đồng nhất, cùng kiểu định dạng annotations 
 from pathlib import Path
 
-DATASET_PATH = Path(r"D:\\Do-an1_2classes\\Indoor_fire_and_neg-samples")
+DATASET_PATH = Path(r"D:\\Do-an1\\Samples")
 SPLITS = ["Train", "Valid", "Test"]
 
 for split in SPLITS:
@@ -21,7 +21,7 @@ for split in SPLITS:
 #Chuyển segmented sang bounding box
 from pathlib import Path
 
-DATASET_PATH = Path(r"D:\\Do-an1_2classes\\Indoor_fire_and_neg-samples")
+DATASET_PATH = Path(r"D:\\Do-an1\\Samples")
 SPLITS = ["Train", "Valid", "Test"]
 
 def polygon_to_bbox(parts):

@@ -3,11 +3,11 @@ from ultralytics import YOLO
 
 def main():
     # Load model đã train
-    model = YOLO("D:\\Do-an_python\\runs\\detect\\runs_indoor\\train\\fire_detection_pi5_indoor\\weights\\best.pt")
+    model = YOLO("D:\\Do-an1\\Trained_model\\runs\\detect\\runs_indoor_fire_with_negatives_samples\\train\\fire_detection_fire_with_negatives_samples_on_pi5\\weights\\best.pt")
 
     # Validate
     metrics = model.val(
-        data='data_fire.yaml',
+        data='data_fire_with_negatives_samples.yaml',
         device=0
     )
     print(f"\n Kết quả Validate:")
