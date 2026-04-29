@@ -1,0 +1,7 @@
+names:
+- Fire
+nc: 1
+path: D:\Do-an1_2classes\Indoor_fire_and_neg-samples
+test: Test/images
+train: Train/images
+val: Valid/images
